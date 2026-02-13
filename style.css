@@ -36,11 +36,15 @@ body {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 500;
+    border-radius: 8px;
+    transition: color 0.2s, background-color 0.2s, transform 0.2s;
 }
 
 .sidebar nav a.active,
 .sidebar nav a:hover {
     color: #fff;
+    background-color: #1a1a1a;
+    transform: translateX(4px);
 }
 
 .playlist {
